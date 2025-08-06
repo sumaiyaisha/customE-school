@@ -1,0 +1,266 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*	header start*/ 
+header {
+    padding: 5px;
+}
+.logo {
+	width: 180px;
+}
+.menu ul li a {
+    padding: 0px 10px 10px !important;
+}
+.s_btn {
+	margin-left: 0;
+}
+/*header end*/	
+/*banner start*/
+.banner {
+    padding-bottom: 60px; 
+}
+.b_text {
+    text-align: center;
+}
+.h1 {
+    margin: 10px 0 20px;
+    font-size: 35px;
+    line-height: 50px;
+}
+.p2 {
+    line-height: 30px;
+    margin: 0px 0;
+}
+.b_img {
+    margin: 0 0 30px;
+}
+/*banner end*/
+/*feature start*/
+.c_p {
+    padding-bottom: 60px;
+}
+.f_img {
+    width: 65px;
+    height: 73px;
+}
+/*feature end*/
+/*course start*/
+.c_h1 {
+    font-size: 25px;
+}
+.co_item {
+    padding: 20px 15px 25px;
+}
+.co_h2{
+    font-size: 20px;
+}
+.co_icon {
+    width: 20px;
+}
+.co_li:not(:last-child) {
+    margin-right: 0;
+}
+.co_span {
+    font-size: 14px;
+}
+/*course end*/
+/*testimony start*/
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 60px 20px;
+}
+.t_text p {
+    line-height: 25px;
+    text-align: center;
+}
+/*footer top start*/
+.footer_top{
+    text-align: center;
+    padding: 55px 0 20px;
+}
+.ft_details{
+    margin-bottom: 35px;
+    padding-right: 0;
+}
+.ft_links{
+    margin-bottom: 35px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*	header start*/
+header {
+    padding: 10px;
+}
+.logo {
+	width: 190px;
+}
+.menu ul li a {
+    padding: 0px 10px 10px !important;
+}
+.s_btn {
+	margin-left: 0;
+}
+/*header end*/
+/*banner start*/
+.banner {
+    padding-bottom: 60px; 
+}
+.b_text {
+    text-align: center;
+}
+.h1 {
+    margin: 10px 91px 20px;
+    font-size: 35px;
+    line-height: 50px;
+}
+.p2 {
+    line-height: 30px;
+    margin: 0px 50px;
+}
+.b_img {
+    margin: 0 30px 30px;
+}
+/*banner end*/
+/*feature start*/
+.c_p {
+    padding-bottom: 60px;
+}
+.f_img {
+    width: 65px;
+    height: 73px;
+}
+/*feature end*/
+/*course start*/
+.c_h1 {
+    font-size: 25px;
+}
+.co_item {
+    margin: 30px 50px 0;
+}
+/*course end*/
+/*testimony start*/
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 120px 20px;
+}
+.t_text p {
+    line-height: 25px;
+    text-align: center;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+header {
+    padding: 10px;
+}
+.menu ul li a {
+    padding: 0px 10px 10px !important;
+}
+.s_btn{
+	margin-left: 0;
+}
+/*header end*/
+/*banner start*/
+.banner {
+   padding: 50px 0 43px;
+}
+.b_text {
+    text-align: center;
+}
+.h1 {
+     margin: 10px -1px 15px;
+     font-size: 40px;
+     line-height: 50px;
+}
+.p2 {
+    margin: 0px 30px;
+}
+.b_img{
+    margin: 0  0 30px;
+}
+/*banner end*/
+/*feature start*/
+.c_p {
+    padding-bottom: 80px;
+}
+/*feature end*/
+/*course start*/
+.c_h1 {
+    font-size: 30px;
+}
+.co_item {
+    margin: 40px -5px 0;
+}
+.co_link {
+    margin: 15px 0 20px;
+}
+.co_icon {
+    margin: -1px;
+    width: 20px;
+}
+.co_span {
+    font-size: 9px;
+}
+/*course end*/
+/*testimony start*/
+.t_item{
+    margin-top: 40px;
+}
+/*footer top start*/
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+     margin-bottom: 35px;
+     padding-right: 70px;
+     padding-left: 70px;
+}
+}
+
+/*/Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*feature start*/
+.f_img {
+    width: 65px;
+    height: 73px;
+}
+/*feature end*/
+/*course start*/
+.co_item {
+    padding: 25px 15px 30px;
+}
+.co_icon {
+    width: 22px;
+}
+.co_li:not(:last-child){
+    margin-right: 0;
+}
+.co_span {
+    font-size: 15px;
+}
+}
+
+/*/Extra large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*/Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*banner start*/
+
+/*feature start*/
+.f_item{
+    margin: 40px;
+}
+/*footer top start*/
+.ft_details{
+    padding-right: 130px;
+}
+}

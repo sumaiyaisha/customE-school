@@ -4,12 +4,8 @@
 
 /*common css start*/ 
 :root{
-	--black: #000000;
-	--orange: #FD511A;
-	--green: #21B573;
-	--bgg: #F0FFF0;
-	--ftor: #282531;
-
+        --black: #000000;
+	
 	--pop:"Poppins", sans-serif;
 	--rob:"Roboto", sans-serif;
 }
@@ -34,7 +30,7 @@ header{
 	color: var(--black);
 }
 .menu ul li a:hover{
-	color: var(--orange);
+	color: #ba4347;
 }
 .c_btn{
 	font-family: var(--rob);
@@ -207,4 +203,5 @@ footer p{
 footer p a{
      color: #ffffff;
 }
+
 /*footer end*/
